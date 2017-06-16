@@ -1,0 +1,75 @@
+body,
+div,
+a,
+label {
+	font-family: '微软雅黑', "Helvetica Neue", Roboto, "Segoe UI", sans-serif;
+}
+
+body,
+ul,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	/*background: -moz-linear-gradient(top, #F878A8 50%, #FA8B6F 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F878A8), color-stop(100%, #FA8B6F));
+	background: -webkit-linear-gradient(left, #F878A8 0%, #FA8B6F 100%);
+	background: -o-linear-gradient(top, #F878A8 0%, #FA8B6F 100%);
+	background: -ms-linear-gradient(top, #F878A8 0%, #FA8B6F 100%);
+	background: linear-gradient(to bottom, #FA8B6F 0%, #F878A8 100%);*/
+	background: #FA8B6F;
+}
+
+
+#invitation{
+	text-align: center;
+	padding: 2em 1em 0em 1em;
+}
+
+.title{
+	color: white;
+	font-size: 1em; 
+}
+
+.image_main{
+	display: block;
+	width: 300px;
+	height: 280px;
+	border-radius: 0.5em;
+	margin: 1em auto
+}
+
+.image_head{
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+	border: 1px white solid;
+}
+
+.name{
+	color: white;
+	padding-top: 0.8em;
+}
+
+.invitation_desc{
+	color: white;
+	padding:1em ;
+}
+
+.free{
+	color: black;
+}
+
+.submitBtn{
+	width:300px;
+	height:3em;
+	line-height: 3em;
+	background-color:#F9518D;
+	color:white;
+	border:0px;
+	border-radius:3em;
+}
